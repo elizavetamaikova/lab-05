@@ -64,9 +64,7 @@ class StackNoCopy {
       delete _top;
       _top = tmp;
       return data;
-    }
-    else
-    {
+    } else {
       throw std::runtime_error("Stack empty");
     }
   }
